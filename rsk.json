@@ -1,0 +1,91 @@
+// 20200207100730
+// https://raw.githubusercontent.com/vijsayma/RND/master/db.json
+
+{
+  "posts": [
+    {
+      "meta": {
+        "id": "MS_RSK_RISK_ASSESSMENT",
+        "module": "RSK",
+        "extended-form-details": {
+          
+        },
+        "primary-title": {
+          "type": "static",
+          "source": "Risk Assessment"
+        },
+        "secondary-title": {
+          "type": "field",
+          "source": "OBJECT_NAME,OBJECT_ID"
+        },
+        "metric-id": 102630,
+        "process-instance-id": 136623,
+        "instance-id": 416868,
+        "instance-token": "3edfd877-009d-4186-ae56-824929316d08",
+        "locale": "en_US",
+        "editable": true,
+        "lockable": true,
+        "accessCode": 99,
+        "autoSaveInterval": 300000,
+        "autoSaveDataFetched": false,
+        "RTFMultiAttachColumn": "RTF_ATTACH",
+        "response": {
+          
+        },
+        "status": 5,
+        "responsiveness": [
+          {
+            "device-type": "SMALL",
+            "editable": true
+          },
+          {
+            "device-type": "MEDIUM",
+            "editable": true
+          }
+        ],
+        "e-signature": {
+          "enabled": false,
+          "user-signature-expired": false,
+          "user-signature-locked": false
+        },
+        "header": {
+          "summary-fields": [
+            "ASSESSMENT_DATE",
+            "PROGRESS_STATUS"
+          ],
+          "statusField": "PROGRESS_STATUS",
+          "reports": [
+            {
+              "id": "report_72"
+            },
+            {
+              "id": "report_88"
+            }
+          ]
+        },
+        "behavior": {
+          "javascripts": "ui/js/src/modules/RSK/forms/MS_RSK_RISK_ASSESSMENT.js"
+        },
+        "actions": [
+          {
+            "action-type": "submit",
+            "action-data": [
+              
+            ],
+            "target-type": "default",
+            "target-name": "",
+            "source": "",
+            "source-type": "workflow",
+            "parameters": [
+              
+            ],
+            "confirmation-section": "MSAI_201"
+          }
+        ]
+      }
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
